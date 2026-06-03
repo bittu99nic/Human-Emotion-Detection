@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Python caching
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Datasets & Checkpoints
+backend/datasets/speech_ravdess/
+backend/datasets/speech_tess/
+backend/datasets/facial_fer2013/
+backend/datasets/preprocessed/*.npz
+backend/temp/
+backend/ai_models/weights/*.pth
+backend/ai_models/weights/*.onnx
+
+# Environment configurations
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Databases
+*.db

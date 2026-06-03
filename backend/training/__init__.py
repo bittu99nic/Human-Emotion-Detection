@@ -1,0 +1,1 @@
+# AURA training package
